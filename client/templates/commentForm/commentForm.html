@@ -3,8 +3,10 @@
         <!-- Comment Form-->
         <div id="commentForm-wrap col-lg-6 col-md-8 col-sm-10 mx-auto">
             <form class="comment-post">
-                <label for="questionPost" class="sr-only">Question Post</label>
-                <input type="text" name="questionPost" id="commentPost" class="form-control" placeholder="Respond to this question!" maxlength="">
+                <div class="form-group">
+                    <label for="replyPost" class="sr-only"></label>
+                    <textarea class="form-control"  name="replyPost" id="replyPost" placeholder="Reply Detail" rows="4"></textarea>
+                 </div>
 
                 <button class="ui button blue fluid" type="submit">Post Comment</button>
             </form>
