@@ -28,7 +28,7 @@
             &emsp;
             <!-- Iterate through the replies -->
         {{#each replies}}
-        <div class="replies">
+        <div class="replies card">
             <div class="row">
                 <div class=".col-sm-6 .col-md-5 .col-lg-6" id="info">
                     <div class="list-inline">
@@ -39,9 +39,12 @@
                 </div>
             </div>
             <p class="regular question-det">"{{reply}}"</p>
-        </div>
+            <hr>
          {{/each}}
-        </div>
+        <div>
+            <div><p class="text-muted small">Was this reply helpful?</p> </div>
+
+    </div>
     {{/each}}
     <!-- End Question -->
 </template>

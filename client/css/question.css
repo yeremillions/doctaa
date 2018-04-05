@@ -8,16 +8,7 @@
 
 .question {
     border: 1px solid #CECECE;
-    background-color: #EDEDED;
     padding: 20px;
-    margin: 0px 0px 20px 0px;
-    border-radius: 5px;
-}
-
-.replies {
-    border: 1px solid #eaeaea;
-    background-color: #EDEDED;
-    padding: 10px;
     margin: 0px 0px 20px 0px;
     border-radius: 5px;
 }
@@ -28,7 +19,7 @@
 
 .question:hover {
 
-    background-color: #EDEDEC;
+    background-color: #F8FDF6;
 }
 
 question-img {
