@@ -1,7 +1,7 @@
 Meteor.startup(function() {
 
     // user roles
-    var roles = ['patient', 'doctor', 'admin', 'staff']
+    var roles = ['doctor', 'patient', 'staff', 'admin']
 
     // this will fail if the roles package isn't installed
     if(Meteor.roles.find().count() === 0) {
@@ -9,4 +9,5 @@ Meteor.startup(function() {
             Roles.createRole(role)
         })
     }
+
 })

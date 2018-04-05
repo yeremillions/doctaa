@@ -2,15 +2,15 @@
     {{#if currentUser}}
         <!-- Comment Form-->
         <div id="commentForm-wrap col-lg-6 col-md-8 col-sm-10 mx-auto">
-            <form class="comment-post">
-                <div class="form-group">
-                    <label for="replyPost" class="sr-only"></label>
-                    <textarea class="form-control"  name="replyPost" id="replyPost" placeholder="Reply Detail" rows="4"></textarea>
-                 </div>
 
-                <button class="ui button blue fluid" type="submit">Post Comment</button>
+            <form class="comment-post">
+                <label for="postReply" class="sr-only">Question Post</label>
+                <textarea name="postReply" id="postReply" class="form-control" placeholder="Respond to this question!" rows="5"></textarea>
+                <button class="ui button blue fluid" type="submit">Post Reply</button>
             </form>
         </div>
+
+        <hr>
         <!-- End Comment Form-->
     {{else}}
         <!-- Redirect Guest to Login Form-->

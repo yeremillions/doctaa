@@ -25,10 +25,22 @@
             <!-- Insert the comments template to enable replies to questions -->
             &emsp;
             <hr>
-            {{#each comments}}
-                {{> comment}}
-            {{/each}}
             &emsp;
+            <!-- Iterate through the replies -->
+        {{#each replies}}
+        <div class="replies">
+            <div class="row">
+                <div class=".col-sm-6 .col-md-5 .col-lg-6" id="info">
+                    <div class="list-inline">
+                        <p class="meta text-muted">Author: {{replier}}</p>
+                        <p class="meta text-muted">Usertype: {{userType}}</p>
+                        <p class="meta text-muted">Reply Date: {{formatDate createdAt}}</p>
+                    </div>
+                </div>
+            </div>
+            <p class="regular question-det">"{{reply}}"</p>
+        </div>
+         {{/each}}
         </div>
     {{/each}}
     <!-- End Question -->
