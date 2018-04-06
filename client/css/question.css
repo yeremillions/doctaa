@@ -8,6 +8,7 @@
 
 .question {
     border: 1px solid #CECECE;
+    background-color: #E5E5E5;
     padding: 20px;
     margin: 0px 0px 20px 0px;
     border-radius: 5px;
@@ -19,7 +20,7 @@
 
 .question:hover {
 
-    background-color: #F8FDF6;
+    background-color: #E9E9E9;
 }
 
 question-img {
@@ -54,42 +55,8 @@ question-img {
     line-height: 1.8;
 }
 
-.smiley {
-    width: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.smiley:hover {
-    width: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
 #info {
     padding-left: 20px;
-}
-
-#vote {
-    padding: 10px 20px;
-}
-
-#score {
-    padding-left: 48px;
-}
-
-.count {
-    padding-right: 32px;
-    padding-top: 0px;
-    margin-top: 0px;
 }
 
 textarea {

@@ -20,6 +20,7 @@
             <p class="regular question-det">"{{questionDetail}}"</p>
 
             &emsp;
+
             <hr>
             {{> commentForm}}
             <!-- Insert the comments template to enable replies to questions -->
@@ -31,20 +32,33 @@
         <div class="replies card">
             <div class="row">
                 <div class=".col-sm-6 .col-md-5 .col-lg-6" id="info">
+                   <div class="float-right">
+                       <div class="ui buttons">
+                           <button class="ui button small">Add to Care Team</button>
+                           <div class="or"></div>
+                           <button class="ui positive button small">Book Appointment</button>
+                       </div>
+                   </div>
+
                     <div class="list-inline">
-                        <p class="meta text-muted">Author: {{replier}}</p>
-                        <p class="meta text-muted">Usertype: {{userType}}</p>
+                        <p class="meta text-muted">Author: {{userType}} {{replier}}</p>
                         <p class="meta text-muted">Reply Date: {{formatDate createdAt}}</p>
                     </div>
                 </div>
             </div>
-            <p class="regular question-det">"{{reply}}"</p>
+            <p class="regular reply-detail">"{{reply}}"</p>
             <hr>
+            <div class="row">
+                <div class=".col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0" id="vote">
+                    <p class="text-muted small">Was this reply helpful?</p> &emsp;
+                    <i class="thumbs up outline icon" id="thumbsDown"> {{downvote}}</i>
+                    <i class="thumbs down outline icon" id="thumbsDown"> {{upvote}}</i>
+                </div>
+            </div>
+        </div>
          {{/each}}
-        <div>
-            <div><p class="text-muted small">Was this reply helpful?</p> </div>
+        </div>    <!-- End Replies -->
 
-    </div>
     {{/each}}
     <!-- End Question -->
 </template>
