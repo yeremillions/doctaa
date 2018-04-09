@@ -1,8 +1,4 @@
-body{
-    height: auto;
-}
 .footer {
-    margin-top: 60px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -13,23 +9,15 @@ body{
     text-align: center;
 }
 
-h1 {
-    border-top: 3px;
-    padding-top: 22px;
-    padding-bottom: 12px;
-    margin-bottom: 19px; /* 22px-3px */
-    font-size: 30px;
-}
-
 .form-signin {
     width: 100%;
     max-width: 500px;
 }
 
 .form-control {
-    height: 40px;
+    height: 50px;
     margin-bottom: 10px;
-    }
+}
 
 #login-btn #register-btn #question-btn{
     margin-bottom: 40px;
@@ -66,10 +54,6 @@ img{
 
 .card-custom {
     max-width: 128px;
-}
-
-.card-body{
-    padding-bottom: 50px;
 }
 
 #questionForm-wrap {

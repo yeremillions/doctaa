@@ -1,21 +1,7 @@
 <template name="doctors">
-    <h1>Add Doctors to your Care Team</h1>
     <ul class="list-group">
-        {{#each doctorUsers}}
-             {{> doctor}}
-         {{/each}}
+        {{#each users}}
+                {{username}}
+            {{/each}}
     </ul>
-</template>
-
-
-<template name="doctor">
-
-    <li class="list-group-item">
-        {{username}}
-        {{#if currentUser}}
-            <button class="btn btn-outline-primary pull-right add">
-                {{#if alreadyFavourited _id}} Remove from Care Team {{else}} Add to Care Team {{/if}}
-            </button>
-        {{/if}}
-    </li>
 </template>
