@@ -13,11 +13,7 @@ Template.register.events({
         const valid = validateEmail(email);
         if (valid) {
             if (password === password2) {
-                Accounts.createUser({username: username, email: email, password: password,
-                    profile: {
-                        name: name,
-                    }
-                    }, (error) => {
+                Accounts.createUser({username: username, email: email, password: password}, (error) => {
                     if (error) {
                         console.log(error);
                     } else {

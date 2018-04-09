@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6b0059e-5f75-44f3-97e0-5a2b5f053100" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/templates/partials/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/doctaa.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/css/doctaa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/question.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/css/question.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/templates/doctors/doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/doctors/doctors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/doctors/doctors.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/doctors/doctors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/myquestions/myquestions.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/myquestions/myquestions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/partials/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/partials/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/partials/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/partials/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/partials/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/partials/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/templates/partials/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/partials/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/templates/questionForm/questionForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/templates/questionForm/questionForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/role.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/publications.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/publications.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +23,8 @@
       <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/partials/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -53,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -74,8 +59,11 @@
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/partials/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding>
+                <element signature="e#1421#1427#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/client/templates/doctors/doctors.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -92,8 +80,8 @@
       <file leaf-file-name="methods.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/methods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="238">
+              <caret line="14" column="121" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
             </state>
           </provider>
         </entry>
@@ -102,16 +90,16 @@
         <entry file="file://$PROJECT_DIR$/server/publications.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doctors.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="doctors.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/doctors/doctors.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -119,8 +107,8 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -176,7 +164,6 @@
         <option value="$PROJECT_DIR$/client/templates/partials/navbar.js" />
         <option value="$PROJECT_DIR$/client/templates/partials/login.js" />
         <option value="$PROJECT_DIR$/client/templates/partials/footer.js" />
-        <option value="$PROJECT_DIR$/lib/routes/routes.js" />
         <option value="$PROJECT_DIR$/server/bootstrap.js" />
         <option value="$PROJECT_DIR$/client/css/doctaa.css" />
         <option value="$PROJECT_DIR$/client/templates/questionForm/questionForm.html" />
@@ -188,11 +175,12 @@
         <option value="$PROJECT_DIR$/client/templates/partials/footer.html" />
         <option value="$PROJECT_DIR$/server/publications.js" />
         <option value="$PROJECT_DIR$/client/templates/doctors/doctors.js" />
-        <option value="$PROJECT_DIR$/client/templates/partials/register.js" />
         <option value="$PROJECT_DIR$/server/methods.js" />
-        <option value="$PROJECT_DIR$/client/templates/doctors/doctors.html" />
-        <option value="$PROJECT_DIR$/server/main.js" />
         <option value="$PROJECT_DIR$/client/templates/partials/register.html" />
+        <option value="$PROJECT_DIR$/client/templates/partials/register.js" />
+        <option value="$PROJECT_DIR$/lib/routes/routes.js" />
+        <option value="$PROJECT_DIR$/server/main.js" />
+        <option value="$PROJECT_DIR$/client/templates/doctors/doctors.html" />
       </list>
     </option>
   </component>
@@ -207,11 +195,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-45" />
+    <option name="y" value="73" />
+    <option name="width" value="1364" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -369,7 +357,7 @@
       <workItem from="1522950050693" duration="11850000" />
       <workItem from="1523078037095" duration="16223000" />
       <workItem from="1523098758792" duration="8629000" />
-      <workItem from="1523152938157" duration="55302000" />
+      <workItem from="1523152938157" duration="57374000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1522611556811</created>
@@ -396,13 +384,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217547000" />
+    <option name="totallyTimeSpent" value="219619000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-45" y="73" width="1364" height="674" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24597365" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24925816" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -679,24 +667,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes/routes.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/doctors/doctors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/role.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="476">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/publications.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -707,45 +688,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/partials/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/doctors/doctors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/methods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/doctors/doctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+        <state relative-caret-position="238">
+          <caret line="14" column="121" selection-start-line="14" selection-start-column="121" selection-end-line="14" selection-end-column="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/partials/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#1421#1427#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/partials/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/doctors/doctors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
         </state>
       </provider>
     </entry>

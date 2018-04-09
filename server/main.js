@@ -11,7 +11,7 @@ Meteor.publish('users', function() {
 });
 
 
-// Accounts.onCreateUser(function(options, user){
-//    user.favouriteDoctors = [];
-//    return user;
-//});
+ Accounts.onCreateUser(function(options, user){
+    user.favouriteDoctors = [];
+    return user;
+});
