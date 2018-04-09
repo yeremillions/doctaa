@@ -13,6 +13,14 @@ body{
     text-align: center;
 }
 
+h1 {
+    border-top: 3px;
+    padding-top: 22px;
+    padding-bottom: 12px;
+    margin-bottom: 19px; /* 22px-3px */
+    font-size: 30px;
+}
+
 .form-signin {
     width: 100%;
     max-width: 500px;

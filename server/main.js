@@ -5,6 +5,13 @@ Meteor.startup(() => {
     // console.log(Accounts, '-----');
 });
 
+
 Meteor.publish('users', function() {
     Meteor.users.find({ roles: { $in: ['doctor'] } });
 });
+
+
+// Accounts.onCreateUser(function(options, user){
+//    user.favouriteDoctors = [];
+//    return user;
+//});

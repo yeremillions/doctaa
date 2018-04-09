@@ -1,4 +1,4 @@
-const validateEmail = function(email){
+const validateEmail = function(email){ //Regex function to validate emails
     const regex = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
     return regex.test(email);
 }
@@ -13,7 +13,11 @@ Template.register.events({
         const valid = validateEmail(email);
         if (valid) {
             if (password === password2) {
-                Accounts.createUser({username: username, email: email, password: password}, (error) => {
+                Accounts.createUser({username: username, email: email, password: password,
+                    profile: {
+                        name: name,
+                    }
+                    }, (error) => {
                     if (error) {
                         console.log(error);
                     } else {
@@ -21,15 +25,14 @@ Template.register.events({
                             if (error) {
                                 console.log(error);
                             } else {
-                                Router.go("/");                                }
+                                Router.go('/');
+                            }
                         });
                     }
                 });
-
             }
         } else {
             console.log('email wrong');
         }
-
     }
 });

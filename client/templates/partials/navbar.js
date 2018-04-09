@@ -4,7 +4,7 @@ Template.navbar.events({
             if (err) {
                 Bert.alert(err.reason, "danger", "growl-top-right");
             } else {
-                Router.go('/');
+                Router.go('/login');
                 Bert.alert("You are now logged out", "success", "growl-top-right");
             }
         });
