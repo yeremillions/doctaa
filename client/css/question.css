@@ -8,19 +8,13 @@
 
 .question {
     border: 1px solid #CECECE;
-    background-color: #E5E5E5;
+    background-color: #EEEEEE;
     padding: 20px;
     margin: 0px 0px 20px 0px;
-    border-radius: 5px;
 }
 
 .question:last-child {
     margin-bottom: 85px;
-}
-
-.question:hover {
-
-    background-color: #E9E9E9;
 }
 
 question-img {
@@ -38,20 +32,18 @@ question-img {
 
 .question-title {
     color: #A6A6A6;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0px 0px;
-    padding-bottom: 10px;
-    word-wrap: break-word;
 }
 
 .meta {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .question-det {
-    color: #A6A6A6;
-    font-size: 18px;
+    color: #666666;
+    font-size: 15px;
     line-height: 1.8;
 }
 

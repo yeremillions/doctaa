@@ -1,5 +1,5 @@
 <template name="commentForm">
-    {{#if currentUser}}
+    {{#if isInRole 'doctor'}}
         <!-- Comment Form-->
         <div id="commentForm-wrap col-lg-6 col-md-8 col-sm-10 mx-auto">
 
@@ -10,16 +10,11 @@
             </form>
         </div>
 
-        <hr>
+
         <!-- End Comment Form-->
     {{else}}
         <!-- Redirect Guest to Login Form-->
-        <div id="questionForm-wrap">
-            <form class="question-post">
-                <h2 class="form-signin-heading">Log in to post a response</h2>
-                <a href="{{pathFor 'login'}}" class="ui button positive" id="login-redir">Login</a>
-            </form>
-        </div>
+
         <!-- End Redirect Guest to Login Form-->
     {{/if}}
 </template>

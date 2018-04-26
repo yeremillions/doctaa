@@ -1,5 +1,6 @@
 Template.commentForm.events({
     'submit .comment-post': function (event) {
+        event.preventDefault();
         var reply = event.target.postReply.value;
         var replier = Meteor.user().username;
 
