@@ -1,1 +1,19 @@
-<template name="doctorDashboard"></template>
+<template name="doctorDashboard">
+    {{> doctorDashboardList}}
+</template>
+
+<template name="doctorDashboardList">
+    <div class="items">
+        {{#each doctorItems}}
+            {{> singleDoctorItems}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="singleDoctorItems">
+    <div class="item">
+        <div class="item-content">
+            <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+        </div>
+    </div>
+</template>

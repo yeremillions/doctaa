@@ -1,0 +1,19 @@
+<template name="Queries">
+    {{> queryList}}
+</template>
+
+<template name="queryList">
+    <div class="items">
+        {{#each queries}}
+            {{> singleQueries}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="singleQueries">
+    <div class="item">
+        <div class="item-content">
+            <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+        </div>
+    </div>
+</template>
