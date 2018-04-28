@@ -1,0 +1,19 @@
+<template name="dashboard">
+    {{> dashboardList}}
+</template>
+
+<template name="dashboardList">
+    <div class="items">
+        {{#each items}}
+            {{> singleItems}}
+        {{/each}}
+    </div>
+</template>
+
+<template name="singleItems">
+    <div class="item">
+        <div class="item-content">
+            <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+        </div>
+    </div>
+</template>
