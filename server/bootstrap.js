@@ -28,3 +28,18 @@ Meteor.startup(function () {
     }
 });
 
+//Populate the queries database with some default questions
+if (Queries.find().count() === 0) {
+    Queries.insert({
+        title: 'My eyes are sensitive to lights',
+        detail: 'I get teary eyed whenever I am around bright lights. This is not just some wetness of the eyes, the tears really flow. Besides the discomfort and embarassment, there is no pain. What could account for this?'
+    });
+    Queries.insert({
+        title: 'Stomach Cramps',
+        detail: 'I have stomach cramps whenever I take milk. What could be wrong?'
+    });
+    Queries.insert({
+        title: 'Growing Mole',
+        detail: 'There is a large mole on my back. For a long time it was just there minding its own business. But for the past one week it has been sensitive and it appears to be growing. Should I be worried?'
+    });
+}

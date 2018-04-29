@@ -1,6 +1,6 @@
 import {Meteor} from "meteor/meteor";
 
- Meteor.publish("doctors", function(){
+Meteor.publish("doctors", function(){
     var result = [];
     if (Roles.userIsInRole(this.userId, ['admin', 'patient', 'staff', 'doctor'])) {
         Meteor.users.find({ roles: { $in: ['doctor'] } });
@@ -16,5 +16,5 @@ Meteor.publish('doctorList', function (){
 });
 
 Meteor.publish('doctorUsers', function(){
-  return Meteor.users.find({ roles: { $in: ['doctor'] } });
+    return Meteor.users.find({ roles: { $in: ['doctor'] } });
 });

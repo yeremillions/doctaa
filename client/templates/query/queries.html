@@ -13,7 +13,15 @@
 <template name="singleQueries">
     <div class="item">
         <div class="item-content">
-            <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+            <h3><a href="{{detail}}">{{title}}</a><span>{{createdAt}}</span></h3>
+        </div>
+    </div>
+</template>
+
+<template name="queryPage">
+    <div class="item">
+        <div class="item-content">
+            {{> singleQueries}}
         </div>
     </div>
 </template>
