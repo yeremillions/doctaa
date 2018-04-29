@@ -1,35 +1,44 @@
 <template name="consult">
 {{#requireLogin}}
+    <!-- Wait for subscriptions from the database to be ready before displaying template-->
 {{#if Template.subscriptionsReady}}
- <h2>Consultations</h2>
+ <h2>Consult one of our doctors</h2>
 
+    <!-- Call up possible consultations from our template helper-->
     {{#if availableConsultations}}
         <form>
-            <label>Start a new consultation with </label>
+            <label>Select a doctor to start a new consultation: </label>
             <select name="doctor" class="form-control" >
+
+                <!-- Loop over the possible consultations-->
                 {{#each doc in availableConsultations}}
                     <option value="{{doc._id}}">{{doc.username}}</option>
                 {{/each}}
             </select>
+
+            <!-- Set the role of patient and make it a hidden element-->
             {{#if isInRole 'patient'}}
                 <select name="doctor" class="form-control"  style="visibility: hidden" >
                     <option value="p" selected>Patient</option>
                     <option value="d">Doctor</option>
                 </select>
             {{else}}
+                <!-- Set the role of doctor and make it a hidden element-->
                 <select name="doctor" class="form-control" style="visibility: hidden" >
                     <option value="p">Patient</option>
                     <option value="d" selected>Doctor</option>
                 </select>
             {{/if}}
 
-            <button class='btn btn-primary'> Initiate Consultation</button>
+            <button class='btn btn-primary'> Initiate a Consultation</button>
         </form>
     {{else}}
         <p>Before starting a consultation you need to add a doctor to your <a href="/doctors">favourites!</a></p>
     {{/if}}
     {{else}}
-        {{> spinner}}
+    <!-- Roll the spinner until our subscription is ready-->
+    {{> spinner}}
 {{/if}}
-{{/requireLogin}}
+{{/requireLogin}}  <!-- Close Require Login-->
+
 </template>
