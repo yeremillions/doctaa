@@ -1,20 +1,12 @@
 import {Meteor} from "meteor/meteor";
 
-Meteor.publish("doctors", function(){
-    var result = [];
-    if (Roles.userIsInRole(this.userId, ['admin', 'patient', 'staff', 'doctor'])) {
-        Meteor.users.find({ roles: { $in: ['doctor'] } });
-    } else {
-        this.stop();
-        // YOUUU SHALL NOT.... PASS!!!
-    }
-    return result;
+//Publish list of users to the client
+Meteor.publish('users', function(){
+    return Meteor.users.find();
 });
 
-Meteor.publish('doctorList', function (){
-    return Meteor.users.find({});
-});
-
-Meteor.publish('doctorUsers', function(){
-    return Meteor.users.find({ roles: { $in: ['doctor'] } });
+//Publish list of consultations to the client
+Meteor.publish('consultations', function(){
+    this.userId;
+    return Consultations.find({  $or: [{ p: this.userId }, { d: this.userId}]});
 });

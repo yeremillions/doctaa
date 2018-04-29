@@ -1,8 +1,9 @@
 <template name="questions">
 
     <!-- Insert the questionForm template to enable posting of new question on the questions page -->
-    {{> questionForm}}
-
+    {{#if currentUser}}
+        {{> questionForm}}
+    {{/if}}
     <!-- Iterate each questions from the database the questionForm template to enable posting of new question on the questions page -->
     {{#each questions}}
         <!-- Question -->

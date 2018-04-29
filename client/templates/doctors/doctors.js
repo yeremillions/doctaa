@@ -1,15 +1,8 @@
 Template.doctors.onCreated(function () {
-    this.subscribe('doctorUsers');
+    this.subscribe('users');
 });
 
-// Template.doctors.onCreated(function () {
-//    this.subscribe('doctors');
-// });
-
-// Template.doctors.userList = function () {
-//    return Meteor.users.find();
-// };
-
+//Create a Template Helper to supply the template cursor with an iteration of doctors
 Template.doctors.helpers({
     doctorUsers: function(){
         return Meteor.users.find({ roles: { $in: ['doctor'] } }); //Search through the returned list of users and return doctors.

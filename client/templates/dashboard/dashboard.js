@@ -9,19 +9,19 @@ var itemData = [
     },
     {
         title: 'Favourite a Doctor',
-        url: 'http://meteor.com'
+        url: '/doctors'
     },
     {
         title: 'Chat With Doctor',
-        url: 'http://themeteorbook.com'
+        url: '/consult'
     },
     {
         title: 'Prescriptions',
-        url: 'http://themeteorbook.com'
+        url: '/prescriptions'
     },
     {
         title: 'Lab Tests',
-        url: 'http://themeteorbook.com'
+        url: '/tests'
     }
 
 ];

@@ -1,3 +1,35 @@
 <template name="consult">
+{{#requireLogin}}
+{{#if Template.subscriptionsReady}}
+ <h2>Consultations</h2>
 
+    {{#if availableConsultations}}
+        <form>
+            <label>Start a new consultation with </label>
+            <select name="doctor" class="form-control" >
+                {{#each doc in availableConsultations}}
+                    <option value="{{doc._id}}">{{doc.username}}</option>
+                {{/each}}
+            </select>
+            {{#if isInRole 'patient'}}
+                <select name="doctor" class="form-control"  style="visibility: hidden" >
+                    <option value="p" selected>Patient</option>
+                    <option value="d">Doctor</option>
+                </select>
+            {{else}}
+                <select name="doctor" class="form-control" style="visibility: hidden" >
+                    <option value="p">Patient</option>
+                    <option value="d" selected>Doctor</option>
+                </select>
+            {{/if}}
+
+            <button class='btn btn-primary'> Initiate Consultation</button>
+        </form>
+    {{else}}
+        <p>Before starting a consultation you need to add a doctor to your <a href="/doctors">favourites!</a></p>
+    {{/if}}
+    {{else}}
+        {{> spinner}}
+{{/if}}
+{{/requireLogin}}
 </template>
