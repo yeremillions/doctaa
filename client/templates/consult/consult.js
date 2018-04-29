@@ -29,3 +29,10 @@ Template.consult.helpers({
        return favouriteDoctors.length ? Meteor.users.find({ _id: { $in: favouriteDoctors } } ) : null;
    }
 });
+
+Template.consult.events({
+   'submit form': function (evt) {
+       evt.preventDefault();
+       Meteor.call('createConsultation', evt.target.identity.value, evt.target.doctor.value);
+   }
+});

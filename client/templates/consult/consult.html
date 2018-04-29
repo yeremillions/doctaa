@@ -18,13 +18,13 @@
 
             <!-- Set the role of patient and make it a hidden element-->
             {{#if isInRole 'patient'}}
-                <select name="doctor" class="form-control"  style="visibility: hidden" >
+                <select name="identity" class="form-control"  style="visibility: hidden" >
                     <option value="p" selected>Patient</option>
                     <option value="d">Doctor</option>
                 </select>
             {{else}}
                 <!-- Set the role of doctor and make it a hidden element-->
-                <select name="doctor" class="form-control" style="visibility: hidden" >
+                <select name="identity" class="form-control" style="visibility: hidden" >
                     <option value="p">Patient</option>
                     <option value="d" selected>Doctor</option>
                 </select>

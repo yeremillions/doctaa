@@ -44,6 +44,12 @@ h1 {
     }
 }
 
+@media (max-width: 768px) {
+h1,h2{
+    font-size: 17px;
+}
+}
+
 .navbar {
     margin-bottom: 25px;
 }
